@@ -2,20 +2,20 @@
 */
 Vue.component("simple_footer_component_1722621618", {
     template: `
-    <footer id="footer-section" class="flex-1 bg-white dark:bg-gray-800">
-            <div id="footer-container" class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
-                <hr id="footer-divider" class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
+    <footer id="footer-section" class="flex-1 bg-gradient-to-r from-pink-500 to-purple-600 bg-opacity-50 backdrop-filter backdrop-blur-lg">
+            <div id="footer-container" class="max-w-screen-xl p-8 py-12 mx-auto lg:py-16 md:p-12 lg:p-16 rounded-lg shadow-lg">
+                <hr id="footer-divider" class="my-8 border-pink-300 sm:mx-auto lg:my-10 opacity-30">
                 <div id="footer-content" class="text-center">
                     <div class="flex">
-                        <a id="footer-logo-link" href="#" class="flex-1 flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
-                            <img id="footer-logo" src="./images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
+                        <a id="footer-logo-link" href="#" class="flex-1 flex items-center justify-center mb-6 text-3xl font-semibold text-white hover:text-pink-200 transition duration-300">
+                            <img id="footer-logo" src="./images/logo.svg" class="h-8 mr-4 sm:h-10" alt="Landwind Logo" />
                             EtherScan: Real-Time Ethereum Transaction Analytics
                         </a>
                     </div>
                 </div>
                 <div class="flex">
-                    <div id="footer-text" class="flex-1 block text-sm text-center text-gray-500 dark:text-gray-400">
-                        Monitor new Ethereum transactions as they happen with our powerful on-chain analysis tools. Gain crucial insights into smart contract activity, token transfers, and more.
+                    <div id="footer-text" class="flex-1 block text-lg text-center text-white opacity-80 hover:opacity-100 transition duration-300">
+                        Monitor new Ethereum transactions as they happen with our powerful on-chain analysis tools. Gain crucial insights into smart contract activity, token transfers, and more in this ethereal digital landscape.
                     </div>
                 </div>
             </div>
